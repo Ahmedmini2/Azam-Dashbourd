@@ -1,0 +1,9 @@
+
+in the sidebar for each file to confirm that he is an admin
+
+@foreach($role as $d)
+            @if($d->promission =='Admin')
+// report site
+
+@endif
+        @endforeach
